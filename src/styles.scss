@@ -1,2 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
-@import './assets/css/dashboard.css'
+@import './assets/css/dashboard.css';
+
+.button{
+    background: #5abdbf;
+    border: 1px solid #5abdbf;
+    border-radius: 5px;
+    color: #020a2c;
+    padding: 5px;
+}
+.icon-input{
+    display: block;
+    position: absolute;
+    right: 0;
+    background: #5abdbf;
+    height: 38px;
+    width: 50px;
+    line-height: inherit;
+    text-align: center;
+    font-size: large;
+}
+.icon-input-date{
+    display: block;
+    position: absolute;
+    right: 0;
+    background: #020a2c;
+    color: #5abdbf;
+    height: 38px;
+    width: 50px;
+    line-height: inherit;
+    text-align: center;
+    font-size: large;
+}

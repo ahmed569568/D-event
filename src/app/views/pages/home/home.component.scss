@@ -12,6 +12,7 @@
     }
     .form-control {
       background: #020a2c;
+      border: none;
     }
   .form {
     color: #fff;
@@ -30,5 +31,16 @@
     border: 1px solid #5abdbf;
     border-radius: 5px;
     color: #5abdbf;
-    margin-left: auto;
+    padding: 4px;
+    width: 80px;
+}
+.yes-no{
+  .btn-gray{
+background: #797cab;
+color: #fff;
+}
+.btn-white{
+  background: #fff;
+  color: #020a2c;
+}
 }

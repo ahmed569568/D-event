@@ -1,10 +1,70 @@
 main{
     background: #020a2c !important;
 }
+.navbar{
+    background: #292c48;
+    .navbar-brand{
+    background: #292c48;
+font-weight: bold;
+    }
+}
+.create-project{
+    button{
+        background: black;
+        color: #fff;
+        border: none;
+        line-height: 2;
+    }
+}
+.navbar-nav {
+    .nav-item{
+       .fa-user-circle-o{
+            background: #5ABDBF;
+            border-radius: 50px;
+            color: #020a2c;
+        }
+        .fa-bell-o{
+            color: gray;
+            font-size: larger;
+            border-right: 2px solid gray
+        }
+    }
+}
 #sidebarMenu{
     background: #292c48;
     color: #5ABDBF;
+    text-transform: capitalize;
 }
 .list-group-item{
     background: #292c48;
 }
+.list-group-item{
+    border: none !important;
+}
+.D{
+    color: #5ABDBF;
+    padding: 5px;
+}
+.menu {
+    .one {
+      transform: rotate(-45deg) translate(-2px, 5px);
+      transition: 0.5s ease-in-out;
+      background-color: #fff !important;
+    }
+    .three {
+      transform: rotate(45deg) translate(-8px, -11px);
+      transition: 0.5s ease-in-out;
+      background-color: #fff !important;
+    }
+    .two {
+      opacity: 0;
+      transition: 0.5s ease-in-out;
+    }
+    span {
+      display: block;
+      width: 30px;
+      height: 3px;
+      background: #fff;
+      margin: 7px;
+    }
+  }
