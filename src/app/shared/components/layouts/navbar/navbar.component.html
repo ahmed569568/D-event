@@ -1,0 +1,40 @@
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">Company name</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse"
+        data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+            <a class="nav-link" href="#">Sign out</a>
+        </li>
+    </ul>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
+            <div class="sidebar-sticky pt-3">
+                <ul class="nav flex-column">
+                    <li class="list-group-item d-flex w-100 bgg text-right" routerLink="/about">
+                        <div class="flex-grow-1">dashboard <i class="fas fa-sign-out-alt mx-1"></i></div>
+                    </li>
+                    <li class="list-group-item d-flex w-100 bgg text-right" routerLink="/about">
+                        <div class="flex-grow-1">manage project <i class="fas fa-sign-out-alt mx-1"></i></div>
+                    </li>
+                    <li class="list-group-item d-flex w-100 bgg text-right" routerLink="/about">
+                        <div class="flex-grow-1">project Features <i class="fas fa-sign-out-alt mx-1"></i></div>
+                    </li>
+                    <li class="list-group-item d-flex w-100 bgg text-right" routerLink="/about">
+                        <div class="flex-grow-1">finance <i class="fas fa-sign-out-alt mx-1"></i></div>
+                    </li>
+                    <li class="list-group-item d-flex w-100 bgg text-right" routerLink="/about">
+                        <div class="flex-grow-1">co-mangers<i class="fas fa-sign-out-alt mx-1"></i></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+            <router-outlet></router-outlet>
+        </main>
+    </div>
+</div>
